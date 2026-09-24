@@ -1,0 +1,2 @@
+P1;0;3;programas/programa1.txt
+P2;1;5;programas/programa2.txt

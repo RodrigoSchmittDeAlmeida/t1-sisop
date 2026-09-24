@@ -1,0 +1,8 @@
+.code
+LOAD valor
+SYSCALL 0
+.endcode
+
+.data
+valor 50
+.enddata

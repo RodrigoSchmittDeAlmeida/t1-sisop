@@ -1,0 +1,14 @@
+.code
+LOAD limite
+loop:
+SUB #1
+STORE temp
+SYSCALL 1
+LOAD temp
+BRPOS loop
+SYSCALL 0
+.endcode
+.data
+limite 3
+temp 0
+.enddata

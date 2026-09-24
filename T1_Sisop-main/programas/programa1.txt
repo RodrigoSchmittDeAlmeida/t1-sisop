@@ -1,0 +1,10 @@
+.code
+LOAD valor
+ADD #5
+STORE valor
+SYSCALL 1
+SYSCALL 0
+.endcode
+.data
+valor 10
+.enddata

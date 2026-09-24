@@ -1,0 +1,9 @@
+.code
+LOAD #1
+ADD #1
+ADD #1
+ADD #1
+ADD #1
+ADD #1
+SYSCALL 0
+.endcode
